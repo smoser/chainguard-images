@@ -13,7 +13,7 @@
 <!--monopod:end-->
 
 <!--overview:start-->
-
+Kubernetes RBAC authorizing HTTP proxy for a single upstream.
 <!--overview:end-->
 
 <!--getting:start-->

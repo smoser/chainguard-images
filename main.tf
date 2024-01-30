@@ -645,6 +645,11 @@ module "kube-logging-operator-fluentd" {
   target_repository = "${var.target_repository}/kube-logging-operator-fluentd"
 }
 
+module "kube-rbac-proxy" {
+  source            = "./images/kube-rbac-proxy"
+  target_repository = "${var.target_repository}/kube-rbac-proxy"
+}
+
 module "kube-state-metrics" {
   source            = "./images/kube-state-metrics"
   target_repository = "${var.target_repository}/kube-state-metrics"
